@@ -8,20 +8,16 @@
 ## Beautify Kullanmadan Önce
 
 ```sql
-SELECT * FROM customer WHERE customer_id = 5 AND status = 'active' ORDER BY last_name, first_name;
+SELECT * FROM customer;
 ```
 
 ## Beautify Kullandıktan Sonra
 
 ```sql
-SELECT 
+SELECT
     *
 FROM
-    customer
-WHERE
-    customer_id = 5
-        AND status = 'active'
-ORDER BY last_name , first_name;
+    customer;
 ```
 
 ## Özellikler ve Avantajlar
